@@ -1,0 +1,15 @@
+### post 
+
+POST http://localhost:3000/employee/add
+Content-Type: application/json
+
+{
+    "f_name": "Rajib",
+    "l_name": "Gupta",
+    "email": "rajib.ncp@gmail.com",
+    "password": "rajib12345",
+    "phone": 6291037778,
+    "sup_id": 0,
+    "status": 1,
+    "role": 1
+}
